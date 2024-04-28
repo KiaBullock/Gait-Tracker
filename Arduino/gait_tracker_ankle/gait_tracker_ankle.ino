@@ -18,8 +18,8 @@ void setup() {
     while (1);
   }
 
-  BLE.setLocalName("HipArduinoNano33BLE");
-  BLE.setDeviceName("HipArduinoNano33BLE");
+  BLE.setLocalName("AnkleArduinoNano33BLE");
+  BLE.setDeviceName("AnkleArduinoNano33BLE");
   BLE.setAdvertisedService(gyroService);
 
   gyroService.addCharacteristic(gyroCharacteristicX);
